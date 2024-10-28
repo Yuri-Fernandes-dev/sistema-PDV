@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title>PDV Vendas</title>
+        <!-- Meta tags essenciais -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="/static/style.css">
+    </head>
+    
+    <body>
+        <div class="pdv-vendas">
+            <section>
+                <h1>PDV Vendas</h1>
+                <div class="tituloProduto">
+                     <div id="tituloProdutos">
+                        <p>Whey Protein Integral Médica 100g</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <main class="primeiro">
+                        <div id="linha1-label">
+                            <label for="inputBuscar">Buscar Produtos</label>
+                        </div>
+                        <div id="linha1">
+                            <input type="text" id="inputBuscar">
+                        </div>
+    
+                        <div id="linha1-label">
+                            <label for="inputquantidade">Quantidade</label>
+                        </div>
+                        <div id="linha1">
+                            <input type="number" id="inputquantidade">
+                            <div id="preco"><p id="precoo">R$</p> <p>98,75</p></div>
+                        </div>
+    
+                        <!-- Estoques lado a lado -->
+                        <div class="estoques">
+                            <div class="estoque-item">
+                                <label for="inputEstoque1">Estoque</label>
+                                <div id="inputEstoque1" class="inputEstoque">20</div>
+                            </div>
+                            <div class="estoque-item">
+                                <label for="inputEstoque1">Codigo de Barras</label>
+                                <div id="inputEstoque1" class="inputBarras">20</div>
+                            </div>
+                            
+                            <div class="estoque-item">
+                                <label for="inputEstoque2">SubTotal</label>
+                                <div id="inputEstoque2" class="inputTotal"> <strong>R$</strong> 493,75</div>
+                                
+                                
+                            </div>
+                           
+                            
+                        </div>
+                        <div class="listaProdutos">
+                            <p id="historico">Whey Protein Integral Médica 100g</p> 
+                            <p id="historico">Whey Protein Integral Médica 100g</p> 
+                            <p id="historico">Whey Protein Integral Médica 100g</p> 
+                            <p id="historico">Whey Protein Integral Médica 100g</p> 
+                            <p id="historico">Whey Protein Integral Médica 100g</p> 
+                            
+                        </div>
+                        
+                    
+                    </main>
+                    <div class="resultado"> 
+                        <img src="/static/wy.png" alt="Whey Protein" class="imagem">
+                        <div class="valoor">
+                            <div class="valorRecebido">
+                                <label id="Valores">Valor Recebido</label>
+                                <input type="number" id="inputRecebido"> 
+                            </div>
+                            <div class="valorRecebido">
+                                <label id="Valores">Troco</label>
+                                <div id="troco"> 6,25 </div>
+                                
+                            </div>
+                        </div>
+                        
+                     <!-- A imagem foi movida para dentro da section -->
+                    
+                    
+                </div>
+               
+               
+                
+
+            </section>
+            
+        </div>
+
+   
+        
+
+        <footer>
+            <!-- Local do footer -->
+        </footer>
+        
+        <!-- Bootstrap JavaScript -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
